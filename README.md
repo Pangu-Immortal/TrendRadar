@@ -1,4 +1,9 @@
-![访客统计](https://count.getloli.com/get/@TrendRadar?theme=rule34)
+<div align="center">
+
+![萌萌计数器](https://count.getloli.com/get/@TrendRadar?theme=rule34)
+
+</div>
+
 
 <div align="center" id="trendradar">
 
@@ -28,8 +33,6 @@
 [![ntfy通知](https://img.shields.io/badge/ntfy-通知-00D4AA?style=flat-square)](https://github.com/binwiederhier/ntfy)
 [![Bark通知](https://img.shields.io/badge/Bark-通知-00D4AA?style=flat-square)](https://github.com/Finb/Bark)
 [![Slack通知](https://img.shields.io/badge/Slack-通知-00D4AA?style=flat-square)](https://slack.com/)
-
-
 [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-自动化-2088FF?style=flat-square&logo=github-actions&logoColor=white)](https://github.com/sansan0/TrendRadar)
 [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-部署-4285F4?style=flat-square&logo=github&logoColor=white)](https://sansan0.github.io/TrendRadar)
 [![Docker](https://img.shields.io/badge/Docker-部署-2496ED?style=flat-square&logo=docker&logoColor=white)](https://hub.docker.com/r/wantcat/trendradar)
@@ -181,8 +184,6 @@
 |           *邪            |  5  | 2025.8.01 |            |
 |           *梦            |  0.1  | 2025.7.30 |            |
 |           **龙            |  10  | 2025.7.29 |      支持一下      |
-
-
 </details>
 
 <br>
@@ -285,8 +286,6 @@
 - **GitHub Pages**：自动生成精美网页报告，PC/移动端适配
 - **Docker部署**：支持多架构容器化运行
 - **数据持久化**：HTML/TXT多格式历史记录保存
-
-
 ### **AI 智能分析（v3.0.0 新增）**
 
 基于 MCP (Model Context Protocol) 协议的 AI 对话分析系统，让你用自然语言深度挖掘新闻数据
@@ -322,8 +321,6 @@ GitHub 一键 Fork 即可使用，无需编程基础。
 **适合人群：** 投资者、自媒体人、企业公关、关心时事的普通用户
 
 **典型场景：** 股市投资监控、品牌舆情追踪、行业动态关注、生活资讯获取
-
-
 | Github Pages 效果(手机端适配、邮箱推送效果) | 飞书推送效果 |
 |:---:|:---:|
 | ![Github Pages效果](_image/github-pages.png) | ![飞书推送效果](_image/feishu.jpg) |
@@ -337,8 +334,6 @@ GitHub 一键 Fork 即可使用，无需编程基础。
 - **提示**：不要通过 **Sync fork** 更新本项目，建议查看【历史更新】，明确具体的【升级方式】和【功能内容】
 - **小版本更新**：从 v2.x 升级到 v2.y，用本项目的 `main.py` 代码替换你 fork 仓库中的对应文件
 - **大版本升级**：从 v1.x 升级到 v2.y，建议删除现有 fork 后重新 fork，这样更省力且避免配置冲突
-
-
 ### 2025/11/26 - mcp-v1.0.3
 
   **MCP 模块更新:**
@@ -366,12 +361,8 @@ GitHub 一键 Fork 即可使用，无需编程基础。
 
 **🔧 升级说明**：
 - **GitHub Fork 用户**：更新 `main.py`，`config.yaml`
-
-
 <details>
 <summary>👉 点击展开：<strong>历史更新</strong></summary>
-
-
 ### 2025/11/25 - v3.4.0
 
 **🎉 新增 Slack 推送支持**
@@ -385,16 +376,12 @@ GitHub 一键 Fork 即可使用，无需编程基础。
    - GitHub Actions：配置 `SLACK_WEBHOOK_URL` Secret
    - Docker：环境变量 `SLACK_WEBHOOK_URL`
    - 本地运行：`config/config.yaml` 配置文件
-
-
 > 📖 **详细配置教程**：[快速开始 - Slack 推送](#-快速开始)
 
 - 优化 setup-windows.bat 和 setup-windows-en.bat 一键安装 MCP 的体验
 
 **🔧 升级说明**：
 - **GitHub Fork 用户**：更新 `main.py`、`config/config.yaml`、`.github/workflows/crawler.yml`
-
-
 ### 2025/11/24 - v3.3.0
 
 **🎉 新增 Bark 推送支持**
@@ -434,14 +421,10 @@ GitHub 一键 Fork 即可使用，无需编程基础。
 
 **🔧 升级说明**：
 - **GitHub Fork 用户**：更新 `main.py`、`config/config.yaml`
-
-
 ### 2025/11/18 - mcp-v1.0.2
 
   **MCP 模块更新:**
   - 优化查询今日新闻却可能错误返回过去日期的情况
-
-
 ### 2025/11/22 - v3.1.1
 
 - **修复数据异常导致的崩溃问题**：解决部分用户在 GitHub Actions 环境中遇到的 `'float' object has no attribute 'lower'` 错误
@@ -451,8 +434,6 @@ GitHub 一键 Fork 即可使用，无需编程基础。
 **升级说明**（GitHub Fork 用户）：
 - 必须更新：`main.py`
 - 建议使用小版本升级方式：复制替换上述文件
-
-
 ### 2025/11/20 - v3.1.0
 
 - **新增个人微信推送支持**：企业微信应用可推送到个人微信，无需安装企业微信 APP
@@ -471,25 +452,17 @@ GitHub 一键 Fork 即可使用，无需编程基础。
 - 修复邮件发送 SSL/TLS 端口配置逻辑错误
 - 优化邮箱服务商（QQ/163/126）默认使用 465 端口（SSL）
 - **新增 Docker 环境变量支持**：核心配置项（`enable_crawler`、`report_mode`、`push_window` 等）支持通过环境变量覆盖，解决 NAS 用户修改配置文件不生效的问题（详见 [🐳 Docker 部署](#-docker-部署) 章节）
-
-
 ### 2025/10/26 - mcp-v1.0.1
 
   **MCP 模块更新:**
   - 修复日期查询参数传递错误
   - 统一所有工具的时间参数格式
-
-
 ### 2025/10/31 - v3.0.4
 
 - 解决飞书因推送内容过长而产生的错误，实现了分批推送
-
-
 ### 2025/10/23 - v3.0.3
 
 - 扩大 ntfy 错误信息显示范围
-
-
 ### 2025/10/21 - v3.0.2
 
 - 修复 ntfy 推送编码问题
@@ -513,8 +486,6 @@ GitHub 一键 Fork 即可使用，无需编程基础。
 - **更新提示**：
   - 这是独立的 AI 分析功能，不影响现有的推送功能
   - 可选择性使用，无需升级现有部署
-
-
 ### 2025/10/15 - v2.4.4
 
 - **更新内容**：
@@ -523,8 +494,6 @@ GitHub 一键 Fork 即可使用，无需编程基础。
 
 - **更新提示**：
   - 建议【小版本升级】
-
-
 ### 2025/10/10 - v2.4.3
 
 > 感谢 [nidaye996](https://github.com/sansan0/TrendRadar/issues/98) 发现的体验问题
@@ -536,8 +505,6 @@ GitHub 一键 Fork 即可使用，无需编程基础。
 
 - **更新提示**：
   - 这个仅仅是重构，可以不用升级
-
-
 ### 2025/10/8 - v2.4.2
 
 - **更新内容**：
@@ -548,8 +515,6 @@ GitHub 一键 Fork 即可使用，无需编程基础。
 
 - **更新提示**：
   - 建议使用【大版本更新】
-
-
 ### 2025/10/2 - v2.4.0
 
 **新增 ntfy 推送通知**
@@ -565,8 +530,6 @@ GitHub 一键 Fork 即可使用，无需编程基础。
 
 - **更新提示**：
   - 建议使用【大版本更新】
-
-
 ### 2025/09/26 - v2.3.2
 
 - 修正了邮件通知配置检查被遗漏的问题（[#88](https://github.com/sansan0/TrendRadar/issues/88)）
@@ -771,8 +734,6 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
    - **Secret（值）**：填写你从对应平台获取的实际内容（如 Webhook 地址、Token 等）
 
    <br>
-
-
    <details>
    <summary>👉 点击展开：<strong>企业微信机器人</strong>（配置最简单最迅速）</summary>
    <br>
@@ -1816,8 +1777,6 @@ weight:
 | **新增区域**  | 🆕 **本次新增热点新闻**      | 新话题汇总   | 单独展示本轮新出现的热点话题            |
 
 </details>
-
-
 ### 6. Docker 部署
 
 <details>
@@ -1918,8 +1877,6 @@ docker run -d --name trend-radar \
    - 修改 `.env` 文件，取消注释并填写需要的配置
    - 或在 NAS/群晖 Docker 管理界面的"环境变量"中直接添加
    - 重启容器后生效：`docker-compose up -d`
-
-
 3. **启动服务**:
    ```bash
    # 拉取最新镜像并启动
@@ -2029,16 +1986,10 @@ docker exec -it trend-radar ls -la /app/config/
 ## 🤖 AI 智能分析
 
 TrendRadar v3.0.0 新增了基于 **MCP (Model Context Protocol)** 的 AI 分析功能，让你可以通过自然语言与新闻数据对话，进行深度分析。
-
-
 ### ⚠️ 使用前必读
-
-
 **重要提示：AI 功能需要本地新闻数据支持**
 
 AI 分析功能**不是**直接查询网络实时数据，而是分析你**本地已积累的新闻数据**（存储在 `output` 文件夹中）
-
-
 #### 使用说明：
 
 1. **项目自带测试数据**：`output` 目录默认包含 **2025年11月1日～11月15日** 的新闻数据，可用于快速体验 AI 功能
@@ -2051,8 +2002,6 @@ AI 分析功能**不是**直接查询网络实时数据，而是分析你**本�
    - 测试数据仅供快速体验，**建议自行部署项目**获取实时数据
    - 按照 [快速开始](#-快速开始) 部署运行项目
    - 等待至少 1 天积累新闻数据后，即可查询最新热点
-
-
 ### 1. 快速部署
 
 Cherry Studio 提供 GUI 配置界面，5 分钟快速部署，复杂的部分是一键安装的。
@@ -2373,8 +2322,6 @@ MCP Inspector 是官方调试工具，用于测试 MCP 连接：
 
 </details>
 
-
-
 ### 常见问题
 
 <details>
@@ -2466,8 +2413,6 @@ MCP Inspector 是官方调试工具，用于测试 MCP 连接：
 - **GitHub Issues**：适合针对性强的解答。提问时请提供完整信息（截图、错误日志、系统环境等）。
 - **公众号交流**：适合快速咨询。建议优先在相关文章下的公共留言区交流，如私信，请文明礼貌用语😉
 - 💡 部署成功了？来公众号说说感受吧，你的点赞和留言都是我继续更新的动力~
-
-
 <div align="center">
 
 |公众号关注 |
@@ -2477,8 +2422,6 @@ MCP Inspector 是官方调试工具，用于测试 MCP 连接：
 </div>
 
 <br>
-
-
 ## 🪄 赞助商
 
 > **302.AI** 是按用量付费的企业级 AI 资源平台      
@@ -2491,8 +2434,6 @@ MCP Inspector 是官方调试工具，用于测试 MCP 连接：
   <img src="_image/banner-302ai-zh.jpg" alt="302.AI" width="700"/>
 </a>
 </div>
-
-
 <details id="sponsor-tutorial">
 <summary>👉 点击展开：<b>302.AI 使用教程</b></summary>
 <br>
@@ -2506,8 +2447,6 @@ MCP Inspector 是官方调试工具，用于测试 MCP 连接：
 2. 点击左侧 [API Keys](https://302.ai/apis/list)
 3. 在页面下方找到默认 API KEY，**点击眼睛图标查看**，然后复制
    （⚠️ 注意：不是点最右侧的复制按钮）
-
-
 ### 第 2 步：在 Cherry Studio 中配置
 
 1. 打开 Cherry Studio，进入设置
@@ -2516,8 +2455,6 @@ MCP Inspector 是官方调试工具，用于测试 MCP 连接：
 4. 点击**管理**，现在可以使用所有支持的 AI 模型了
 
 **提示：** Cherry Studio 已原生集成 302.AI，配置后即可看到完整模型列表。
-
-
 **Q: 1 美元免费额度能用多久？**
 A: 取决于使用频率和模型选择，可以进行多次测试体验。
 
@@ -2525,8 +2462,6 @@ A: 取决于使用频率和模型选择，可以进行多次测试体验。
 A: 可以按需充值，按量付费。目前大厂模型价格已相对亲民。
 
 </details>
-
-
 > 每天追踪这么多热点，写报告、回复消息是否让手腕疲惫？        
 > 试试「闪电说」AI 语音输入法 —— 用说的，比打字快 4 倍 ⚡ 。从看热点到输出内容，让效率翻倍 👇
 
@@ -2537,8 +2472,6 @@ A: 可以按需充值，按量付费。目前大厂模型价格已相对亲民�
   <img src="_image/banner-shandianshuo.png" alt="闪电说" width="700"/>
 </a>
 </div>
-
-
 
 ---
 
@@ -2568,8 +2501,6 @@ A: 可以按需充值，按量付费。目前大厂模型价格已相对亲民�
 > 哔哩哔哩(bilibili)评论区数据可视化分析软件
 
 - https://github.com/sansan0/bilibili-comment-analyzer
-
-
 ### 本项目流程图
 
 ```mermaid
@@ -2646,8 +2577,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
