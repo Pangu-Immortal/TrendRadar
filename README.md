@@ -1,9 +1,9 @@
+
 <div align="center">
 
 ![萌萌计数器](https://count.getloli.com/get/@TrendRadar?theme=rule34)
 
 </div>
-
 
 <div align="center" id="trendradar">
 
@@ -40,12 +40,6 @@
 
 </div>
 
-<div align="center">
-
-**中文** | **[English](README-EN.md)**
-
-</div>
-
 > 本项目以轻量，易部署为目标
 
 <details>
@@ -69,14 +63,6 @@
 <br>
 
 ## 📑 快速导航
-
-<div align="center">
-
-| [🚀 快速开始](#-快速开始) | [🤖 AI 智能分析](#-ai-智能分析) | [⚙️ 配置详解](#配置详解) | [📝 更新日志](#-更新日志) | [❓ 答疑与交流](#问题答疑与交流) |
-|:---:|:---:|:---:|:---:|:---:|
-| [🐳 Docker部署](#6-docker-部署) | [🔌 MCP客户端](#-mcp-客户端) | [📚 项目相关](#-项目相关) | [🪄 赞助商](#-赞助商) | |
-
-</div>
 
 - 感谢**耐心反馈 bug** 的贡献者，你们的每一条反馈让项目更加完善😉;  
 - 感谢**为项目点 star** 的观众们，**fork** 你所欲也，**star** 我所欲也，两者得兼😍是对开源精神最好的支持;  
@@ -2413,13 +2399,6 @@ MCP Inspector 是官方调试工具，用于测试 MCP 连接：
 - **GitHub Issues**：适合针对性强的解答。提问时请提供完整信息（截图、错误日志、系统环境等）。
 - **公众号交流**：适合快速咨询。建议优先在相关文章下的公共留言区交流，如私信，请文明礼貌用语😉
 - 💡 部署成功了？来公众号说说感受吧，你的点赞和留言都是我继续更新的动力~
-<div align="center">
-
-|公众号关注 |
-|:---:|
-| <img src="_image/weixin.png" width="400" title="硅基茶水间"/> |
-
-</div>
 
 <br>
 ## 🪄 赞助商
@@ -2427,13 +2406,6 @@ MCP Inspector 是官方调试工具，用于测试 MCP 连接：
 > **302.AI** 是按用量付费的企业级 AI 资源平台      
 > 提供市场上最新、最全面的 **AI 模型**和 **API**，以及多种开箱即用的在线 AI 应用
 
-<div align="center">
-
-[![注册领取](https://img.shields.io/badge/注册_302.AI-领取_1_美元免费测试额度-8B5CF6?style=for-the-badge&logo=openai&logoColor=white)](https://share.302.ai/mEOUzG)
-<a href="https://share.302.ai/mEOUzG" target="_blank">
-  <img src="_image/banner-302ai-zh.jpg" alt="302.AI" width="700"/>
-</a>
-</div>
 <details id="sponsor-tutorial">
 <summary>👉 点击展开：<b>302.AI 使用教程</b></summary>
 <br>
@@ -2464,14 +2436,6 @@ A: 可以按需充值，按量付费。目前大厂模型价格已相对亲民�
 </details>
 > 每天追踪这么多热点，写报告、回复消息是否让手腕疲惫？        
 > 试试「闪电说」AI 语音输入法 —— 用说的，比打字快 4 倍 ⚡ 。从看热点到输出内容，让效率翻倍 👇
-
-<div align="center">
-
-[![Mac下载](https://img.shields.io/badge/Mac-免费下载-FF6B6B?style=for-the-badge&logo=apple&logoColor=white)](https://shandianshuo.cn) [![Windows下载](https://img.shields.io/badge/Windows-免费下载-FF6B6B?style=for-the-badge&logo=lightning&logoColor=white)](https://shandianshuo.cn)
-<a href="https://shandianshuo.cn" target="_blank">
-  <img src="_image/banner-shandianshuo.png" alt="闪电说" width="700"/>
-</a>
-</div>
 
 ---
 
@@ -2561,12 +2525,6 @@ flowchart TD
 GPL-3.0 License
 
 ---
-
-<div align="center">
-
-[🔝 回到顶部](#trendradar)
-
-</div>
 
 ## Contributing
 
