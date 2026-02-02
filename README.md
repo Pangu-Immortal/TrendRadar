@@ -1,9 +1,4 @@
 
-<div align="center">
-
-![萌萌计数器](https://count.getloli.com/get/@TrendRadar?theme=rule34)
-
-</div>
 
 <div align="center" id="trendradar">
 
@@ -1497,6 +1492,13 @@ A股
 ##### 1. **从宽到严**
 ```txt
 # 第一步：先用宽泛关键词测试
+
+<div align="center">
+
+![萌萌计数器](https://count.getloli.com/get/@TrendRadar?theme=rule34)
+
+</div>
+
 人工智能
 AI
 ChatGPT
