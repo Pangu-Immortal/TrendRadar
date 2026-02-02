@@ -35,6 +35,10 @@
 
 </div>
 
+<p align="center">
+  <b>🌟 如果觉得有帮助，请点击 <a href="https://github.com/Pangu-Immortal/TrendRadar/stargazers">Star</a> 支持一下，关注不迷路！🌟</b>
+</p>
+
 > 本项目以轻量，易部署为目标
 
 <details>
